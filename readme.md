@@ -9,7 +9,7 @@ Recommended Version: [Python 3.7.8rc1](https://www.python.org/downloads/release/
 For acquiring dataset, please send an email to sumit.morey20@vit.edu providing following details:
 
 1. Name
-2. Affliation
+2. Affiliation
 3. Email Address
 4. Reason for database download
 
