@@ -1,4 +1,7 @@
 import bmi_model, bmi_test, convert_model
+
+#Copy photos and dataset.csv in this folder and replace the variables 'photos_path' and 'csv_path' in bmi_model.py with the path of those two respectively
+
 #Initially, remove the comment from the following line and run it
 #bmi_model.train_model()
 

@@ -1,4 +1,3 @@
-from tokenize import Double
 import pandas as pd 
 import numpy as np 
 from sklearn import model_selection 
@@ -8,7 +7,7 @@ from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
 from keras.models import Sequential
 
 def train_model():
-    dataframe = pd.read_csv('dataset.csv',usecols=['Sr.no.', 'BMI']).values
+    dataframe = pd.read_csv(csv_path,usecols=['Sr.no.', 'BMI']).values
 
     X = []  # the features, or inputs
     y = []  # the labels, or outputs
@@ -19,7 +18,7 @@ def train_model():
         path = str(int(row[0])) + '.jpg'
         image_bmi = float(row[1])
         # resizing our original images to 256x256, and turning them into numpy arrays
-        image = load_img('photos/' + path, target_size=(128, 128))
+        image = load_img('photos_path' + path, target_size=(128, 128))
         input_arr = img_to_array(image)
         input_arr = np.array(input_arr)
         X.append(input_arr)
