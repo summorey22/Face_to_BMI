@@ -13,7 +13,7 @@ For acquiring dataset, please send an email to sumit.morey20@vit.edu providing f
 3. Email Address
 4. Reason for database download
 
-## Create and Activating a Virtual Environment
+## Creating and Activating a Virtual Environment
 Open a folder in your editor and enter the following commands in your terminal:
 
 `python -m venv --system-site-packages .\venv`
