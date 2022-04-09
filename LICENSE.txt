@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Sumit Morey, Atharva Naik and others
+Copyright (c) 2022 Sumit Morey, Atharva Naik, Mrunal Sondur, Prutha Mane, Rutuja Nagdekar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
